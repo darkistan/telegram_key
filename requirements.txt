@@ -1,3 +1,11 @@
-﻿python-telegram-bot==20.7
+﻿# Основні залежності
+python-telegram-bot==21.0.1
 pykeepass==4.0.3
 python-dotenv==1.0.0
+
+# Стандартні модулі Python (не потрібно встановлювати окремо):
+# - smtplib, email (для 2FA)
+# - secrets (для генерації токенів)
+# - json, os, time, datetime (базові функції)
+# - hashlib (хешування)
+# - logging (логі)
