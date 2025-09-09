@@ -1,0 +1,133 @@
+# Чутлива інформація
+config.env
+.env
+*.env
+.env.local
+.env.production
+.env.staging
+config.local.env
+secrets.env
+
+# База даних KeePass
+*.kdbx
+*.kdb
+*.key
+*.keyx
+Database.kdbx
+database.kdbx
+keepass.kdbx
+
+# Логи (можуть містити чутливу інформацію)
+*.log
+logs/
+log/
+logs.txt
+log.txt
+*.log.*
+
+# Файли користувачів та авторизації
+allowed_users.json
+pending_codes.json
+user_sessions.json
+auth_tokens.json
+
+# Email та SMTP конфігурація
+smtp_config.json
+email_config.json
+mail_settings.json
+
+# Резервні копії з чутливою інформацією
+*.backup
+*.bak
+backup/
+backups/
+*.old
+*.orig
+
+# Тимчасові файли з чутливою інформацією
+temp/
+tmp/
+*.tmp
+*.temp
+temp_*
+tmp_*
+
+# Файли конфігурації з паролями
+*_config.json
+*_settings.json
+*_secrets.json
+secrets.json
+credentials.json
+
+# Додаткові файли з чутливою інформацією (які є в проекті)
+config.env
+allowed_users.json
+pending_codes.json
+logs.txt
+Database.kdbx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+backup/
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Documentation (якщо містить чутливу інформацію)
+SETUP.md
+CONFIG_INSTRUCTIONS.md
